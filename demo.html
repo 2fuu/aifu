@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Language" content="zh-CN"/>
+<meta name="author" content="luoxt">
+<title>下拉多选框</title>
+<style type="text/css">
+.dealer_search{ width:98%; padding:0 15px; line-height:50px; background:#f8f8f8; margin:10px 0; border:1px solid #ccc;}
+.dealer_search label{ margin-right:15px;}
+.dealer_search label input{ width:120px;}
+</style>
+<link href="mselect.css" rel="stylesheet" />
+</head>
+<body>
+<div style="margin:0; padding:0;width:100%;"> 
+	<div class="dealer_search" >
+		<form class="tableform"  method="get">
+			<label>选中省份：
+				<input type="text" class="click_box" id="click_box" value="请选择" readonly/> 
+			</label>
+		</form>
+	</div>
+</div>
+</body>
+<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="jquery.mselect.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function () {
+		var eara_option = {'000':"全部",'001':"北京市(京)",'002':"天津市(津)",'003':"河北省(冀)",'004':"山西省(晋)",'005':"内蒙古自治区(蒙)",'006':"辽宁省(辽)",'007':"吉林省(吉)",'008':"黑龙江省(黑)",'009':"上海市(沪)",'010':"江苏省(苏)",'011':"浙江省(浙)",'012':"安徽省(皖)",'013':"福建省(闽)",'014':"江西省(赣)",'015':"山东省(鲁)",'016':"河南省(豫)",'017':"湖北省(鄂)",'018':"湖南省(湘)",'019':"广东省(粤)",'020':"广西壮族自治区(桂)",'021':"海南省(琼)",'022':"重庆市(渝)",'023':"四川省(川、蜀)",'024':"贵州省(黔、贵)",'025':"云南省(滇、云)",'026':"西藏自治区(藏)",'027':"陕西省(陕、秦)",'028':"甘肃省(甘、陇)",'029':"青海省(青)",'030':"宁夏回族自治区(宁)",'031':"新疆维吾尔自治区(新)"};
+		var eara_str = ["001","019","029"];
+		
+		var options = eara_option;
+		$("#click_box").mselect(options, eara_str); 
+
+	});
+
+</script>
+</html>
