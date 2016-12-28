@@ -1,0 +1,5 @@
+/*弹出多选*/
+.click_box{ width:120px; height:20px; line-height:20px; text-indent:5px; cursor:pointer; background: #fff url(selectdown.png) no-repeat right !important; padding-right:2px; border:1px solid #999 }
+.select_multi{padding-right:20px; max-height:370px; overflow:auto; background-color:#fff; border:1px solid#18cbcd; font-family:'Verdana','宋体'; font-size:12px; padding-left:5px; padding-bottom:10px;}
+.select_multi input{ width:20px;}
+.select_multi .select_multi_li{ height:25px; line-height:25px}
