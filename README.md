@@ -1,6 +1,6 @@
 # 下拉多选框
 
-1、加载css 样式 <link href="mselect.css" rel="stylesheet" />
+1、加载css 样式 ‘<link href="mselect.css" rel="stylesheet" />’
 2、加载jquery <script type="text/javascript" src="jquery-1.8.3.min.js"></script>
 3、加载本插件 <script type="text/javascript" src="jquery.mselect.js"></script>
 4、调用 
