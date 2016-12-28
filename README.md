@@ -3,16 +3,15 @@ PC:下拉多选框
 
 <img src="https://github.com/luoxt/mselect/blob/master/demo.png" />
 
-### 使用
+## 使用
  
-#### 引入JS文件 css文件
+#### 引入css文件 JS文件 
 ```html
 	<link href="mselect.css" rel="stylesheet" />
 	<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="jquery.mselect.js"></script>
 ```
 
-#### 调用
 
 ##### HTML部分
 ```html
@@ -43,3 +42,6 @@ PC:下拉多选框
 		$("#click_box").mselect(options, eara_str);
 	});
 ```
+
+## DEMO
+demo.html
